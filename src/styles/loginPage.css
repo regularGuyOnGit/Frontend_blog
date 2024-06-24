@@ -1,0 +1,81 @@
+.loginPage {
+  border: 2px solid plum;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  min-height: 14rem;
+  margin: 2rem auto;
+  border-radius: 4rem;
+  box-shadow: 2px 2px 20px plum;
+}
+.formHeading {
+  text-align: center;
+  color: gray;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+.loginPage > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: gray;
+  font-family: monospace, sans-serif;
+}
+.loginPage > div > label {
+  padding: 0.2rem 0rem;
+}
+.loginPage > div > input {
+  padding: 0.3rem;
+  border-radius: 0.6rem;
+  color: rebeccapurple;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 800;
+  border: 1px solid gray;
+}
+.loginPage > div > input:focus {
+  transition: all 0.4s ease-in-out;
+  outline: none;
+
+  box-shadow: 1px 1px 10px plum;
+}
+.loginPage > button {
+  padding: 0.4rem;
+  border-radius: 0.6rem;
+  color: white;
+  background-color: rgb(126, 84, 126);
+  font-family: monospace, sans-serif;
+  font-weight: 900;
+  font-size: 0.8rem;
+}
+.loginPage > button:hover {
+  cursor: pointer;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+.signup > a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: monospace, sans-serif;
+}
+.signup > a > span {
+  color: plum;
+  font-size: 1.5rem;
+  font-weight: 900;
+  transition: all 1s ease;
+}
+.signup > a > span:hover {
+  text-decoration: underline;
+  color: rgb(206, 50, 206);
+  transition: all 1s ease;
+}

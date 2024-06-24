@@ -1,0 +1,29 @@
+.links {
+  min-height: 5rem;
+  background-color: rgb(212, 173, 252);
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-family: monospace, sans-serif;
+  font-size: x-large;
+  font-weight: 800;
+}
+.links > a {
+  padding: 0.2rem;
+  margin: 0.5rem;
+  color: rgb(12, 19, 79);
+  text-decoration: none;
+  cursor: pointer;
+}
+.links > a:hover {
+  text-decoration: underline;
+}
+.links > div {
+  padding: 0.2rem;
+  margin: 0.5rem;
+}
+
+.logoutDiv {
+  cursor: pointer;
+}

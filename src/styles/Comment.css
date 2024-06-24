@@ -1,0 +1,41 @@
+.btnDisabled {
+  cursor: not-allowed;
+}
+
+.btnEnabled {
+  cursor: pointer;
+}
+#commentForm {
+  border-top: 1px solid plum;
+  border-bottom: 1px solid plum;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+#commentForm > :nth-child(1) {
+  margin-right: 2rem;
+}
+#commentForm > input[type="text"] {
+  border-radius: 2rem;
+  padding: 0.3rem;
+  color: gray;
+  font-weight: 600;
+}
+#commentForm > input[type="text"]:focus,
+#commentForm > input[type="text"]:hover {
+  box-shadow: 1px 1px 10px plum;
+  outline: none;
+  transition: all 0.6s ease-in;
+  cursor: text;
+}
+#commentForm > :nth-child(3) {
+  background-color: rgb(168, 5, 168);
+  border-radius: 1rem;
+  padding: 0.3rem;
+  color: white;
+  font-family: monospace;
+  margin-left: 1rem;
+  font-weight: bold;
+}

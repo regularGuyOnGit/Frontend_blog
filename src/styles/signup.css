@@ -1,0 +1,58 @@
+.formSignup {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  background-color: rgb(212, 173, 252);
+  color: rgb(12, 19, 79);
+}
+h1 {
+  font-family: monospace, sans-serif;
+  font-weight: 900;
+}
+.formSignup > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.4rem;
+}
+.formSignup > div > input[type="text"],
+.formSignup > div > input[type="password"] {
+  width: 60%;
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  transition: all 0.5s ease-in-out;
+}
+.formSignup > div > label {
+  font-family: monospace, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  font-weight: 800;
+}
+.formSignup > div > input[type="text"]:focus,
+.formSignup > div > input[type="password"]:focus {
+  box-shadow: 1px 1px 10px magenta;
+  font-size: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+.formSignup > button {
+  width: 10%;
+  background-color: rgb(92, 70, 156);
+  cursor: pointer;
+  /* height: 2rem; */
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  font-family: monospace, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
