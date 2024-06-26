@@ -1,0 +1,72 @@
+.createBlog {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.createBlog > :nth-child(1),
+.createBlog > :nth-child(2) {
+  border: 1px solid black;
+  border-radius: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.5rem auto;
+  color: gray;
+  background-color: rgb(238, 238, 238);
+  font-family: monospace, sans-serif;
+  padding: 0.4rem;
+}
+.createBlog > div > label,
+.createBlog > :nth-child(3) > label {
+  padding: 0.3rem;
+}
+.createBlog > div > textarea {
+  padding: 0.3rem;
+  font-family: monospace, sans-serif;
+  color: gray;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: box-shadow 0.6s ease-in;
+}
+.createBlog > div > textarea:focus {
+  outline: none;
+  box-shadow: 13px 11px 40px silver;
+  transition: box-shadow 0.6s ease-in;
+}
+.createBlogHeader {
+  text-align: center;
+  font-family: monospace, sans-serif;
+  color: gray;
+  background-color: rgb(238, 238, 238);
+  padding-top: 0.3rem;
+}
+.createBlog > :nth-child(3),
+.updateFormButton {
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createBlog > :nth-child(3) > button,
+.updateFormButton > button,
+.deletePostBtn > button {
+  background-color: rgb(64, 165, 120);
+  font-weight: 900;
+  font-family: monospace;
+  padding: 0.7rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.deletePostBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

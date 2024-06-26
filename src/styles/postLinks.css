@@ -1,0 +1,51 @@
+.blogGrid {
+  display: grid;
+  width: 80%;
+  /* border: 1px solid plum; */
+  margin: 2rem auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 0.8rem 0.6rem;
+}
+.cells {
+  border: 2px solid plum;
+  box-shadow: 1px 1px 10px plum;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+.title {
+  font-size: 1.4rem;
+  font-family: monospace, sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.post,
+.date {
+  font-size: 1.1rem;
+  font-family: cursive;
+  font-weight: 500;
+}
+.author > p {
+  display: flex;
+  justify-content: end;
+  font-size: 1.1rem;
+  font-family: cursive;
+  font-weight: 600;
+}
+.title,
+.post,
+.author,
+.date {
+  padding: 0.2rem;
+  margin: 0.7rem;
+}
+.post {
+  width: 16rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

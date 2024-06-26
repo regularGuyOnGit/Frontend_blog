@@ -1,0 +1,65 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 2rem auto;
+  border: 2px solid gray;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 20px gray;
+  transition: box-shadow 1s ease-in-out;
+  background-color: rgb(238, 238, 238);
+}
+.loginForm:hover {
+  box-shadow: 2px 2px 40px gray;
+  transition: box-shadow 1s ease-in-out;
+}
+.loginForm > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.5rem 0rem;
+  color: grey;
+  font-family: monospace, sans-serif;
+  font-weight: 800;
+}
+.loginForm > div > input {
+  border-radius: 0.8rem;
+  transition: all 0.5s ease-in-out;
+  padding: 0.4rem;
+  font-weight: 600;
+  color: rgb(94, 91, 91);
+}
+.loginForm > div > input:focus {
+  outline: none;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 8px gray;
+  transition: all 0.5s ease-in-out;
+}
+.loginForm > div > label {
+  padding: 0.3rem 0rem;
+}
+.loginForm > button {
+  margin: 1rem 0rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+  font-family: monospace, sans-serif;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: rgb(64, 165, 120);
+}
+.loginHead {
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  font-family: monospace, sans-serif;
+  color: rgb(104, 109, 118);
+  padding: 0.5rem;
+}
+.errorMessage {
+  color: red;
+  font-size: 1rem;
+  font-family: cursive, sans-serif;
+}
