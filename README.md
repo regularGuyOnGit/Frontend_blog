@@ -49,8 +49,13 @@ Follow these steps to set up the project on your local machine.
 
 The application should now be running at http://localhost:3000.
 
+### Admin credentials
+- username : nitin3000
+- password : 12345
+
 ## PS
 Go the other branch named userMain to login as a User.
+
 
 
 - Author: Nitin Rai
