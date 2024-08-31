@@ -49,5 +49,9 @@ Follow these steps to set up the project on your local machine.
 
 The application should now be running at http://localhost:3000.
 
-Author: Nitin Rai
-Email: nitinrai3000@gmail.com
+## PS
+Go the other branch named adminMain to login as an Admin.
+
+
+- Author: Nitin Rai
+- Email: nitinrai3000@gmail.com
